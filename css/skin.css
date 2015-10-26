@@ -46,10 +46,7 @@ a:hover{
  }
 
 #nav > li:hover > a {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+ 
 /*  border-top: 3px solid #cb5432;   */
 }
 #nav span:hover {
@@ -83,11 +80,11 @@ a:hover{
 }
 /* FILTERED ITEMS ----------------------------------------------------*/#filter-buttons li a {
   color: #444;
-  border-bottom: 1px solid transparent;
+ 
 }
 #filter-buttons li a:hover,
 #filter-buttons li a.selected {
-  border-bottom: 2px solid #444;
+ 
 }
 #filter-container figure {
   background: #f8f5f2;
