@@ -176,13 +176,13 @@ header .wrapper {
   /* SLIDER ------------------------------------------------------------*/
 
 }
-header .wrapper #home-slider {
+/*header .wrapper #home-slider {
   margin-bottom: -73px;
   -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
   -o-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
-}
+}*/
 /* MAIN ------------------------------------------------------------*/
 #main {
   min-height: 500px;

@@ -1,7 +1,7 @@
 /* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//* Colors and backgrounds  ----------------------------------------------------*/body {
-  color: #656360;
-  background: #f1ede8 url(../img/noise-all.png);
-}
+  color: #000000;
+/*  background: #f1ede8 url(../img/noise-all.png);
+*/}
 body a:hover {
   color: #cb5432;
 }
@@ -10,7 +10,8 @@ a {
 }
 header,
 footer {
-  background: #2d2d2d;
+
+background:#f1ede8 url(../img/player-bg.png);
 }
 /* Selection colours (easy to forget) */
 ::selection {
@@ -34,14 +35,15 @@ body {
 }
 /* NAVIGATION ------------------------------------------------------------*/
 #nav > li > a {
-  color: #dcd2be;
+  color:#000000;
+  font-weight:bold;
 }
 #nav > li:hover > a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border-top: 3px solid #cb5432;
+/*  border-top: 3px solid #cb5432;   */
 }
 #nav span:hover {
   -webkit-transform: translate(-10px, -3px);
@@ -64,13 +66,13 @@ body {
   color: #cb5432;
 }
 /* MAIN ------------------------------------------------------------*/
-.multiplebgs #main {
-  background-image: url(../img/main-bg.png), url(../img/main-bg.png);
+.multiplebgs #main {  /*PUNTITOS*/
+ /* background-image: url(../img/main-bg.png), url(../img/main-bg.png);
   background-repeat: repeat-x, repeat-x;
-  background-position: bottom left, top left;
+  background-position: bottom left, top left;   */
 }
 .no-multiplebgs #main {
-  background: #f1f1f1 url(../img/main-bg.png) repeat-x top left;
+ /* background: #f1f1f1 url(../img/main-bg.png) repeat-x top left;*/
 }
 /* FILTERED ITEMS ----------------------------------------------------*/#filter-buttons li a {
   color: #444;

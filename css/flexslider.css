@@ -108,8 +108,8 @@ html[xmlns] .slides {
   height: 37px;
   display: block;
   background: url(../img/slider-nav.png) no-repeat 0 0;
-  cursor: pointer;
-  text-indent: -9000px;
+  /*cursor: pointer;
+  */text-indent: -9000px;
 }
 .flex-direction-nav li .next {
   background-position: 0px -37px;
@@ -167,8 +167,8 @@ html[xmlns] .slides {
 }
 .flex-control-nav li a:hover,
 .flex-control-nav li a.active {
-  background: #cb5432;
-}
+ /* background: #cb5432;
+*/}
 /* Project slider*/
 .project-slider {
   margin-bottom: 54px;

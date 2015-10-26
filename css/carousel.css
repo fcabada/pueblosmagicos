@@ -6,7 +6,7 @@
   padding-top: 40px;
 }
 .carousel-holder .carousel-heading .title {
-  color: #444444;
+  color:#444444
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -54,7 +54,7 @@
 }
 .jcarousel-skin-folder .jcarousel-item .caption {
   text-align: center;
-  color: #444;
+  color:#CCFF00;
   font-size: 12px;
 }
 .jcarousel-skin-folder .jcarousel-item-horizontal {
