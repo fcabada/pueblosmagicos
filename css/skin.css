@@ -3,31 +3,31 @@
 /*  background: #f1ede8 url(../img/noise-all.png);
 */}
 body a:hover {
-  color: #cb5432;
+  color:#666666;
 }
 a {
-  color: #cb5432;
+  color: #666666;
 }
 header,
 footer {
 
-background:#f1ede8 url(../img/player-bg.png);
+background:#f1ede8 url(../img/menu.jpg);
 }
 /* Selection colours (easy to forget) */
 ::selection {
-  background: #cb5432;
+  background: #666666;
 }
 ::-moz-selection {
-  background: #cb5432;
+  background: #666666;
 }
 img::selection {
-  background: #cb5432;
+  background: #666666;
 }
 img::-moz-selection {
-  background: #cb5432;
+  background: #666666;
 }
 body {
-  -webkit-tap-highlight-color: #cb5432;
+  -webkit-tap-highlight-color: #666666;
 }
 #headline,
 .masthead {
@@ -35,9 +35,16 @@ body {
 }
 /* NAVIGATION ------------------------------------------------------------*/
 #nav > li > a {
-  color:#000000;
+  color:#000000;	
   font-weight:bold;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:13px;
+ 	
 }
+a:hover{
+ background-color:#999999;
+ }
+
 #nav > li:hover > a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -53,7 +60,7 @@ body {
 }
 #nav > li.current-menu-item > a,
 #nav > li.current_page_item > a {
-  border-top: 3px solid #cb5432;
+  border-top: 1px solid #666666;
 }
 #nav .sfHover ul {
   background: #f8f5f2;
@@ -63,7 +70,7 @@ body {
 }
 #nav .sfHover ul li a:hover {
   background: rgba(0, 0, 0, 0.8);
-  color: #cb5432;
+  color: #666666;
 }
 /* MAIN ------------------------------------------------------------*/
 .multiplebgs #main {  /*PUNTITOS*/
@@ -76,7 +83,7 @@ body {
 }
 /* FILTERED ITEMS ----------------------------------------------------*/#filter-buttons li a {
   color: #444;
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 #filter-buttons li a:hover,
 #filter-buttons li a.selected {
@@ -193,7 +200,7 @@ body.single #posts-list .box .meta {
   color: #fcb019;
 }
 .lof-slidecontent .active {
-  border-top: 3px #cb5432 solid;
+  border-top: 1px #cb5432 solid;
 }
 /* FOOTER ----------------------------------------------------*/footer {
   color: #dcd2be;
