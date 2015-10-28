@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
 	$container.imagesLoaded( function(){
 		$container.isotope({
 			itemSelector : 'figure',
-			filter: '*',
+			filter: '.pueblos', // cambiamos esto
 			resizable: false,
 			animationEngine: 'jquery'
 		});
